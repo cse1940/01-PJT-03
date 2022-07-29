@@ -1,3 +1,6 @@
-import sys
+t = int(input())
 
-sys.stdin = open("_신용카드만들기1.txt")
+for i in range(1, t+1):
+    test = map(int, input().split())
+    for ii in test:
+        
